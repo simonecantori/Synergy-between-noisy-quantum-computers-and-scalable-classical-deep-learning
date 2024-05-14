@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: 'Synergy between noisy quantum computers and scalable classical deep learning'
+message: >-
+  "If you use this dataset, please cite it as
+  below."
+type: dataset
+authors:
+  - given-names: Simone
+    family-names: Cantori
+    orcid: 'https://orcid.org/0000-0002-6071-9987'
+  - given-names: Andrea
+    family-names: Mari
+    orcid: 'https://orcid.org/0000-0002-5785-3093'
+  - given-names: David
+    family-names: Vitali
+    orcid: 'https://orcid.org/0000-0002-1409-7136'
+  - given-names: Sebastiano
+    family-names: Pilati
+    orcid: 'https://orcid.org/0000-0002-4845-6299'
+repository-code: >-
+  https://github.com/simonecantori/Synergy-between-noisy-quantum-computers-and-scalable-classical-deep-learning
