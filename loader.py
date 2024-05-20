@@ -1,7 +1,7 @@
 import numpy as np
 
 
-# Data for Fig.7a
+# Data for Fig.8a
 
 thetas_fig8a = np.load('Fig8a_theta.npy') # Array with shape (100,N). They are the N angles of each circuit. Here, N = 16.
 qubits_fig8a = np.load('Fig8a_qubits.npy') # Array with shape (100,N). They are the N indeces of the physical qubits used for each circuit. Here, N = 16.
@@ -12,7 +12,7 @@ mz_cnn_fig8a = np.load('Fig8a_mz_predicted.npy') # Array with shape (100,). They
 mz_linear_fig8a = np.load('Fig8a_mz_linear.npy') # Array with shape (100,). They are the average magnetization per qubit for each circuit predicted by the linear regression model.
 
 
-# Data for Fig.7b
+# Data for Fig.8b
 
 thetas_fig8b = np.load('Fig8b_theta.npy') # Array with shape (100,P). They are the N angles of each circuit. Here, P = 20.
 qubits_fig8b = np.load('Fig8b_qubits.npy') # Array with shape (100,N). They are the N indeces of the physical qubits used for each circuit. Here, N = 16.
@@ -23,7 +23,7 @@ mz_cnn_fig8b = np.load('Fig8b_mz_predicted.npy') # Array with shape (100,). They
 mz_linear_fig8b = np.load('Fig8b_mz_linear.npy') # Array with shape (100,). They are the average magnetization per qubit for each circuit predicted by the linear regression model.
 
 
-# Data for Fig.7c
+# Data for Fig.8c
 
 thetas_fig8c = np.load('Fig8c_theta.npy') # Array with shape (100,P). They are the N angles of each circuit. Here, P = 20.
 qubits_fig8c = np.load('Fig8c_qubits.npy') # Array with shape (100,N). They are the N indeces of the physical qubits used for each circuit. Here, N = 16.
