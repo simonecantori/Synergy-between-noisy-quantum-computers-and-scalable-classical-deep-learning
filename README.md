@@ -4,3 +4,5 @@ This folder contains data from the article referenced above. The data are relate
 It also includes the angles of the quantum circuits and the indices of the physical qubits. They can be used as input features for the neural network.
 
 The loader.py file is used to load these data.
+The circ_gen.py file is used to simulate new quantum circuits.
+The cnn_2D.py file includes the two-dimensional convolutional neural network used in this work.
